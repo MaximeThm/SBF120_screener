@@ -1,3 +1,3 @@
-# test
+# Stock screener
 
-Testing git without comand line
+A stock screener for SBF 120 stocks (or any other list of yahoo finance tickers you have).
