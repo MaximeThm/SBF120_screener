@@ -1,2 +1,3 @@
 # test
-A new repository
+
+Testing git without comand line
