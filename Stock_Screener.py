@@ -4,7 +4,7 @@ import pandas as pd
 import datetime
 
 yf.pdr_override()
-df = pd.read_csv("/Users/maximethomas/Documents/SBF120.csv")
+df = pd.read_csv("SBF120.csv")
 stocklist = df['TICKER'].tolist()
 
 end_date = datetime.date.today()
@@ -83,7 +83,7 @@ for stock in stocklist:
         print(e)
         print("No data on " + stock)
 
-df = pd.read_csv("/Users/maximethomas/Documents/SBF120.csv")
+df = pd.read_csv("SBF120.csv")
 for stocks in final:
     df1 = df.loc[df['TICKER'].isin([stocks])]
     name.append(df1['NAME'].tolist())
