@@ -23,7 +23,7 @@ for stock in stocklist:
 
     df['Percent Change'] = df['Adj Close'].pct_change()
     stock_return = df['Percent Change'].sum() * 100
-    RS_Rating = round((stock_return / 2) * 10, 2)
+    Rating = round((stock_return / 2) * 10, 2)
 
     try:
         sma = [50, 150, 200]
@@ -77,7 +77,7 @@ for stock in stocklist:
         if condition_1 and condition_2 and condition_3 and condition_4 and condition_5 and condition_6 and condition_7:
             final.append(stock)
             price.append(df['Adj Close'].iloc[-1])
-            rating.append(RS_Rating)
+            rating.append(Rating)
 
     except Exception as e:
         print(e)
