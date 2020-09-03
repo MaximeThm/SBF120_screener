@@ -7,3 +7,4 @@ The selection criteria are based on videos from a youtuber : https://www.youtube
 
 On September 2, 2020 the performance at closing was as follows:
 
+![Screenshot 2020-09-03 at 14 51 11](https://user-images.githubusercontent.com/35689674/92117583-a50bb600-edf5-11ea-86be-fa2290a0979d.png)
